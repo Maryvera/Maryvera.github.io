@@ -6,8 +6,8 @@ git checkout master
 cd ../
 mv .deploy_git/.git/ ./public/
 cd ./public
-git config user.name  "demoThink" # 这里改成自己的 Github 用户名
-git config user.email "demotest123@163.com" # 这里改成自己的 Github 邮箱
+git config user.name  "Maryvera" # 这里改成自己的 Github 用户名
+git config user.email "1107087095@qq.com" # 这里改成自己的 Github 邮箱
 # add commit timestamp
 git add .
 git commit -m "Travis CI Auto Builder at `date +"%Y-%m-%d %H:%M"`"
